@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Timer</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="button.min.css">
+    <link href="fontawesome/css/all.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <span class="pref-switch" id="settings-btn"> <i class="fas fa-cog set-ico" aria-hidden="true"></i> </span>
+    <h2>Count Down Timer</h2>
+    <div class="timer-block">
+        <h1>
+          <span id="hour">02</span>
+          <span class="colon">:</span>
+          <span id="minute">00</span>
+          <span class="colon">:</span>
+          <span id="second">00</span>
+        </h1>
+    </div>
+    <h1>
+      <button class="ui positive button" id="btnPlay">START</button>
+      <button class="ui negative button" id="btnReset">RESET</button>
+    </h1>
+    <div class="modal animate" id="modal">
+      <h5>Change Duration</h5>
+      <h6>
+        <input id="etHr" type="number" min="0" max="24" value="02">
+        <span class="ip-label">Hours</span> &nbsp; &nbsp;
+        <input id="etMn" type="number" min="0" max="60" value="00">
+        <span class="ip-label">Minutes</span>
+      </h6>
+      <h6>
+        <button class="ui purple button" id="btnOK">OK</button>
+      </h6>
+    </div>
+    <h4>Made by LogicsLab &copy; <span id="year"></span> </h4>
+    <script src="local.js"></script>
+    <script>
+      require('./app.js')
+    </script>
+  </body>
+</html>
