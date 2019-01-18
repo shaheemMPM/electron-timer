@@ -7,10 +7,19 @@ To clone and run this repository you'll need [Git](https://git-scm.com) and [Nod
 ```bash
 # Clone this repository
 git clone https://github.com/shaheemMPM/electron-timer.git
+
 # Go into the repository
 cd electron-timer
+
 # Install dependencies
 npm install
+
 # Run the app
 electron .
 ```
+
+## Demo
+
+![alt text](https://raw.githubusercontent.com/shaheemMPM/electron-timer/master/demo_1.jpeg)
+
+![alt text](https://raw.githubusercontent.com/shaheemMPM/electron-timer/master/demo_2.jpeg)
