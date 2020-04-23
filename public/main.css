@@ -105,3 +105,10 @@ input[type="number"]{
   border-radius: 50%;
   text-align: center;
 }
+
+a {
+  font-size: 15px;
+  font-weight: bold;
+  color: rgba(224, 225, 226, 0.6);
+  text-decoration: none;
+}
